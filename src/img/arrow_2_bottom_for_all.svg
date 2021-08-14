@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="35.457" viewBox="0 0 11 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1349" y="906" width="11" height="65" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Rectangle_11_copy_35" data-name="Rectangle 11 copy 35" class="cls-1" d="M1353.77,971h1.83l-0.19-46.814h-1.83ZM1349,925.076l10.99,0.007-5.56-19.092Z" transform="translate(-1349 -906)"/>
+</svg>
