@@ -128,7 +128,6 @@ const horizontalSlider = () => {
     slideSwinder.addEventListener('input', (e) => {
         let value = e.target.value,
             move = onePercentSliderWidth * value
-            console.log(value)
         sliderWrapper.style.transform = `translateX(${-move}px)`
     })
 }
@@ -141,4 +140,11 @@ window.addEventListener('DOMContentLoaded', () => {
 window.addEventListener('beforeunload', () => {
     window.scrollTo(0, 0)
 })
+
+window.addEventListener('resize', () => {
+    window.scrollTo(0, 0)
+    verticalSlider()
+    horizontalSlider()
+})
+
 
